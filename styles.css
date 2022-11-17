@@ -6,7 +6,7 @@
 }
 
 .navbar {
-    background: #131313;
+    background:#f4f4f4;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -30,7 +30,7 @@
 }
 
 #navbar__logo {
-    background: #ffffff;
+    background: #131313;
     background-size: 100%;
     -webkit-background-clip:text;
     -moz-background-clip:text;
@@ -43,7 +43,7 @@
     text-decoration: none;
     padding-bottom: 1rem;
     font-size: 2rem;
-    text-decoration:overline 2px #fff;
+    text-decoration:line-through 2px #131313;
     font-family: 'UnifrakturMaguntia', cursive;
 }
 
@@ -58,7 +58,7 @@
 }
 
 .navbar__links {
-    color: #fff;
+    color: #131313;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -71,14 +71,14 @@
 
 
 .navbar__links:hover {
-    color:#ddfcec;
+    color:#A32D1D;
     transition: all 0.3s ease;
-    text-decoration: overline 3px #ddfcec;
+    text-decoration: overline 3px #A32D1D;
 }
 
 @media screen and (max-width: 960px) {
     .navbar {
-            background: #131313;
+            background: #f4f4f4;
             height: 80px;
             display: flex;
             justify-content: center;
@@ -130,7 +130,7 @@
         height: 3px;
         margin: 5px auto;
         transition: all 0.3s ease-in-out;
-        background: #fff;
+        background: #000;
     }
 
     .navbar__item {
@@ -138,7 +138,7 @@
     }
 
     .navbar__links {
-        color: #99f2c8;
+        color:#A32D1D;
         text-align: center;
         padding: 2rem;
         width: 100%;
@@ -187,7 +187,7 @@
 
 .hero{
     background:#000;
-    background-image: url("./images/home.jpg");
+    background-image: url("./images/home2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -208,18 +208,13 @@
 .hero__heading {
 font-size: 100px;
 margin-bottom: 24px;
-color:#99f2c8;
-text-decoration: line-through #f4f4f4 solid 2px;
+color:#A32D1D;
+text-decoration: line-through #A32D1D solid 2px;
 z-index:1;
 font-family: 'Teko', sans-serif;
 text-transform: uppercase;
 }
-.hero__description {
-    font-size: 30px;
-    color:#f4f4f4;
-    padding-top:20px;
-    font-family: 'Courier New', Courier, monospace;
-}
+
 .highlight {
     border-bottom: 4px solid rgb(65, 95, 162);
 }
@@ -228,15 +223,12 @@ text-transform: uppercase;
         font-size: 60px;
     }
 
-    .hero__description {
-        font-size: 20px;
-    }
 }
 
 /* About Section */
 
 .main{
-    background-color:#131313;
+    background-color:#f4f4f4;
     padding:8rem 0;
 }
 .main__container{
@@ -250,15 +242,15 @@ text-transform: uppercase;
     width:100%;
     max-width: 1300px;
     padding: 0 50px;
-    border-top: 3px solid #f4f4f4;
+    border-top: 3px solid #131313;
 }
 .main__content{
-    color:#f4f4f4;
+    color:#131313;
     width: 100%;
 }
 .main__content h1 {
-    font-size: 6rem;
-    background: #99f2c8;
+    font-size: 4rem;
+    background: #131313;
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -270,7 +262,7 @@ text-transform: uppercase;
 
 .main__content h2 {
     font-size: 1.8rem;
-    background:#f4f4f4;
+    background:#131313;
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -283,7 +275,7 @@ text-transform: uppercase;
 }
 
 .main__content p {
-    color: #f4f4f4;
+    color: #131313;
     margin-top: 1rem;
     font-size: 1.5rem;
     font-weight: 400;
@@ -292,8 +284,8 @@ text-transform: uppercase;
 
 .main__btn {
     font-size: 1.2rem;
-    background: transparent;
-    border:#fff solid 3px;
+    background: #131313;
+    border:2px #131313;
     margin-top: 2rem;
     border-radius: 10%;
     cursor: pointer;
@@ -320,11 +312,11 @@ text-transform: uppercase;
     left: 0;
     width: 0;
     height: 100%;
-background: #000000;
+background: #870000;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #434343, #000000);
+    background: -webkit-linear-gradient(to right, #190A05, #870000);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #434343, #000000);
+    background: linear-gradient(to right, #190A05, #870000);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     transition: all 0.35s;
     border-radius: 4px;
@@ -464,7 +456,7 @@ background: #000000;
     max-width: 100%;
     padding-top: 1rem;
     padding-bottom:1rem;
-    filter: brightness(30%);
+    filter: brightness(50%);
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 .portfolio__img:hover{
@@ -513,7 +505,7 @@ background: #000000;
 }
 #portfolio .img10 {
     grid-area: img10;
-    background-image: url("./images/tattoos/img10.jpg");
+    background-image: url("./images/tattoos/img13.jpg");
 }
 #portfolio .img11 {
     grid-area: img11;
@@ -551,7 +543,7 @@ transition: transform 0.4s ease;
 }
 /* Contact Section */
 #contact{
-height:220px;
+height:245px;
 padding-bottom: 0;
 }
 .footer__container{
@@ -574,19 +566,19 @@ padding-bottom: 0;
     font-family: 'UnifrakturMaguntia', cursive;
 }
 .bi-instagram{
-    fill:#99f2c8;
+    fill:#A32D1D;
     width:2rem;
 }
 .bi-telephone-fill{
-fill: #99f2c8;
+fill: #A32D1D;
 width: 2rem;
 }
 .bi-facebook{
-fill: #99f2c8;
+fill: #A32D1D;
 width: 2rem;
 }
 .bi-envelope{
-fill: #99f2c8;
+fill: #A32D1D;
 width: 2rem;
 }
 
@@ -595,11 +587,16 @@ width: 2rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin:bottom;
     text-transform: uppercase;
-    padding-top:2rem;
+    padding-top:3rem;
     padding-bottom: 0;
     font-size: 1rem;
 }
-
+.coded{
+    color: #333333;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: bottom;
+        font-size: 1rem;
+}
 .phone{
     color:#f4f4f4;
 }
